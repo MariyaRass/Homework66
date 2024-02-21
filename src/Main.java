@@ -39,7 +39,7 @@ public class Main {
         int salary = 29000;
         double savings = 0;
         for (int i = 0; i < 12; i++) {
-            savings = savings + (savings*0.12);
+            savings = savings + (savings*0.01);
             savings = savings + salary;
             System.out.println("Месяц " + i + " Итого " + savings);}
 
